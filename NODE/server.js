@@ -31,6 +31,8 @@ var server = http.createServer(function (req, res) {
             var name = queryObj.name;
             var age = queryObj.age;
             var sex = queryObj.sex;
+            console.log("有新的表单提交")
+            console.log("姓名：" + name + "\n");
             res.end(html);
         });
     }
