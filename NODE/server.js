@@ -32,7 +32,7 @@ var server = http.createServer(function (req, res) {
             var age = queryObj.age;
             var sex = queryObj.sex;
             console.log("有新的表单提交")
-            console.log("姓名：" + name + "\n");
+            console.log("欢迎" + name + "加入\n");
             res.end(html);
         });
     }
